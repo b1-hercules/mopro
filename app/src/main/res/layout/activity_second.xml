@@ -20,144 +20,223 @@
             android:textColor="@color/gold4"
             android:text="Cuisines"
             />
-
-
-        <LinearLayout
+        <android.support.v7.widget.CardView
+            android:id="@+id/cvayambakar"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_margin="2dp"
-            android:orientation="horizontal">
+            android:layout_margin="8dp"
+            app:cardBackgroundColor="@color/grey"
+            app:cardElevation="8dp"
+            >
 
-            <TextView
-                android:layout_width="0dp"
+
+            <LinearLayout
+                android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:layout_weight="1"
-                android:text="Ayam Bakar @20k"
-                android:textColor="@color/gold4"
-                android:textAlignment="center"
-                />
-            <EditText
-                android:layout_width="0dp"
-                android:layout_height="wrap_content"
-                android:layout_weight="1"
-                android:inputType="number"
-                android:id="@+id/txtayambakar"
-                android:textAlignment="center"
-                android:text="0"
-                android:textColor="@color/gold4"
+                android:layout_margin="2dp"
+                android:orientation="horizontal">
 
-                />
-        </LinearLayout>
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="Ayam Bakar @20k"
+                    android:textColor="@color/gold4"
+                    android:textAlignment="center"
+                    android:textSize="18sp"
+                    />
+                <EditText
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:inputType="number"
+                    android:id="@+id/txtayambakar"
+                    android:textAlignment="center"
+                    android:text="0"
+                    android:textColor="@color/gold4"
+                    android:textSize="18sp"
 
-        <LinearLayout
+                    />
+            </LinearLayout>
+        </android.support.v7.widget.CardView>
+
+
+
+
+        <android.support.v7.widget.CardView
+
+            android:id="@+id/cvayamgeprek"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_margin="2dp"
-            android:orientation="horizontal">
+            android:layout_margin="8dp"
+            app:cardBackgroundColor="@color/grey"
+            app:cardElevation="8dp"
 
-            <TextView
-                android:layout_width="0dp"
+            >
+
+            <LinearLayout
+                android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:layout_weight="1"
-                android:text="Ayam Geprek @15k"
-                android:textColor="@color/gold4"
-                android:textAlignment="center"
-                />
-            <EditText
-                android:layout_width="0dp"
-                android:layout_height="wrap_content"
-                android:layout_weight="1"
-                android:inputType="number"
-                android:id="@+id/txtayamgeprek"
-                android:textAlignment="center"
-                android:text="0"
-                android:textColor="@color/gold4"
+                android:layout_margin="2dp"
+                android:orientation="horizontal">
 
-                />
-        </LinearLayout>
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="Ayam Geprek @15k"
+                    android:textColor="@color/gold4"
+                    android:textAlignment="center"
+                    android:textSize="18sp"
+                    />
+                <EditText
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:inputType="number"
+                    android:id="@+id/txtayamgeprek"
+                    android:textAlignment="center"
+                    android:text="0"
+                    android:textColor="@color/gold4"
+                    android:textSize="18sp"
 
-        <LinearLayout
+                    />
+            </LinearLayout>
+
+        </android.support.v7.widget.CardView>
+
+
+
+        <android.support.v7.widget.CardView
+            android:id="@+id/cvayammadu"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_margin="2dp"
-            android:orientation="horizontal">
+            android:layout_margin="8dp"
+            app:cardBackgroundColor="@color/grey"
+            app:cardElevation="8dp"
+            >
 
-            <TextView
-                android:layout_width="0dp"
+            <LinearLayout
+                android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:layout_weight="1"
-                android:text="Ayam Madu @18k"
-                android:textColor="@color/gold4"
-                android:textAlignment="center"
-                />
-            <EditText
-                android:layout_width="0dp"
-                android:layout_height="wrap_content"
-                android:layout_weight="1"
-                android:inputType="number"
-                android:id="@+id/txtayammadu"
-                android:textAlignment="center"
-                android:text="0"
-                android:textColor="@color/gold4"
+                android:layout_margin="2dp"
+                android:orientation="horizontal">
 
-                />
-        </LinearLayout>
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="Ayam Madu @18k"
+                    android:textColor="@color/gold4"
+                    android:textAlignment="center"
+                    android:textSize="18sp"
+                    />
+                <EditText
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:inputType="number"
+                    android:id="@+id/txtayammadu"
+                    android:textAlignment="center"
+                    android:text="0"
+                    android:textColor="@color/gold4"
+                    android:textSize="18sp"
+
+                    />
+            </LinearLayout>
+
+        </android.support.v7.widget.CardView>
 
 
 
-        <LinearLayout
+        <android.support.v7.widget.CardView
+            android:id="@+id/cvayamgolek"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_margin="2dp"
-            android:orientation="horizontal">
+            android:layout_margin="8dp"
+            app:cardBackgroundColor="@color/grey"
+            app:cardElevation="8dp"
+            >
 
-            <TextView
-                android:layout_width="0dp"
+            <LinearLayout
+                android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:layout_weight="1"
-                android:text="Ayam Golek @25k"
-                android:textAlignment="center"
-                android:textColor="@color/gold4" />
+                android:layout_margin="2dp"
+                android:orientation="horizontal">
 
-            <EditText
-                android:id="@+id/txtayamgolek"
-                android:layout_width="0dp"
-                android:layout_height="wrap_content"
-                android:layout_weight="1"
-                android:inputType="number"
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="Ayam Golek @25k"
+                    android:textAlignment="center"
+                    android:textColor="@color/gold4"
+                    android:textSize="18sp"
+                    />
 
-                android:text="0"
-                android:textAlignment="center"
-                android:textColor="@color/gold4"
-               />
-        </LinearLayout>
+                <EditText
+                    android:id="@+id/txtayamgolek"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:inputType="number"
 
-        <LinearLayout
+                    android:text="0"
+                    android:textAlignment="center"
+                    android:textColor="@color/gold4"
+                    android:textSize="18sp"
+                    />
+            </LinearLayout>
+
+        </android.support.v7.widget.CardView>
+
+
+
+
+
+        <android.support.v7.widget.CardView
+
+            android:id="@+id/cvayamgoreng"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_margin="2dp"
-            android:orientation="horizontal">
+            android:layout_margin="8dp"
+            app:cardBackgroundColor="@color/grey"
+            app:cardElevation="8dp"
 
-            <TextView
-                android:layout_width="0dp"
-                android:layout_height="wrap_content"
-                android:layout_weight="1"
-                android:text="Ayam Goreng @12k"
-                android:textColor="@color/gold4"
-                android:textAlignment="center"
-                />
-            <EditText
-                android:layout_width="0dp"
-                android:layout_height="wrap_content"
-                android:layout_weight="1"
-                android:inputType="number"
-                android:id="@+id/txtayamgoreng"
-                android:textAlignment="center"
-                android:text="0"
-                android:textColor="@color/gold4"
+            >
 
-                />
-        </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="2dp"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="Ayam Goreng @12k"
+                    android:textColor="@color/gold4"
+                    android:textAlignment="center"
+                    android:textSize="18sp"
+                    />
+                <EditText
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:inputType="number"
+                    android:id="@+id/txtayamgoreng"
+                    android:textAlignment="center"
+                    android:text="0"
+                    android:textColor="@color/gold4"
+                    android:textSize="18sp"
+
+                    />
+            </LinearLayout>
+
+        </android.support.v7.widget.CardView>
+
+
 
         <TextView
             android:layout_width="match_parent"
@@ -169,113 +248,181 @@
             />
 
 
-        <LinearLayout
+        <android.support.v7.widget.CardView
+
+            android:id="@+id/cvesdawet"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_margin="2dp"
-            android:orientation="horizontal">
+            android:layout_margin="8dp"
+            app:cardBackgroundColor="@color/grey"
+            app:cardElevation="8dp"
 
-            <TextView
-                android:layout_width="0dp"
+            >
+
+            <LinearLayout
+                android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:layout_weight="1"
-                android:text="Es Dawet @8k"
-                android:textColor="@color/gold4"
-                android:textAlignment="center"
-                />
-            <EditText
-                android:layout_width="0dp"
-                android:layout_height="wrap_content"
-                android:layout_weight="1"
-                android:inputType="number"
-                android:id="@+id/txtesdawet"
-                android:textAlignment="center"
-                android:text="0"
-                android:textColor="@color/gold4"
+                android:layout_margin="2dp"
+                android:orientation="horizontal">
 
-                />
-        </LinearLayout>
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="Es Dawet @8k"
+                    android:textColor="@color/gold4"
+                    android:textAlignment="center"
+                    android:textSize="18sp"
+                    />
+                <EditText
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:inputType="number"
+                    android:id="@+id/txtesdawet"
+                    android:textAlignment="center"
+                    android:text="0"
+                    android:textColor="@color/gold4"
+                    android:textSize="18sp"
 
-        <LinearLayout
+                    />
+            </LinearLayout>
+
+        </android.support.v7.widget.CardView>
+
+
+
+        <android.support.v7.widget.CardView
+
+            android:id="@+id/cvesteh"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_margin="2dp"
-            android:orientation="horizontal">
+            android:layout_margin="8dp"
+            app:cardBackgroundColor="@color/grey"
+            app:cardElevation="8dp"
 
-            <TextView
-                android:layout_width="0dp"
+            >
+
+            <LinearLayout
+                android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:layout_weight="1"
-                android:text="Es Teh @5k"
-                android:textColor="@color/gold4"
-                android:textAlignment="center"
-                />
-            <EditText
-                android:layout_width="0dp"
+                android:layout_margin="2dp"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="Es Teh @5k"
+                    android:textColor="@color/gold4"
+                    android:textAlignment="center"
+                    android:textSize="18sp"
+                    />
+                <EditText
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:inputType="number"
+                    android:id="@+id/txtesteh"
+                    android:textAlignment="center"
+                    android:text="0"
+                    android:textColor="@color/gold4"
+                    android:textSize="18sp"
+
+                    />
+            </LinearLayout>
+
+        </android.support.v7.widget.CardView>
+
+
+
+        <android.support.v7.widget.CardView
+
+            android:id="@+id/cvjusmelon"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="8dp"
+            app:cardBackgroundColor="@color/grey"
+            app:cardElevation="8dp"
+
+            >
+
+            <LinearLayout
+                android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:layout_weight="1"
-                android:inputType="number"
-                android:id="@+id/txtesteh"
-                android:textAlignment="center"
-                android:text="0"
-                android:textColor="@color/gold4"
+                android:layout_margin="2dp"
+                android:orientation="horizontal">
 
-                />
-        </LinearLayout>
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="Jus Melon @7k"
+                    android:textColor="@color/gold4"
+                    android:textAlignment="center"
+                    android:textSize="18sp"
+                    />
+                <EditText
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:inputType="number"
+                    android:id="@+id/txtjusmelon"
+                    android:textAlignment="center"
+                    android:text="0"
+                    android:textColor="@color/gold4"
+                    android:textSize="18sp"
 
-        <LinearLayout
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_margin="2dp"
-        android:orientation="horizontal">
+                    />
+            </LinearLayout>
 
-        <TextView
-            android:layout_width="0dp"
+        </android.support.v7.widget.CardView>
+
+
+
+        <android.support.v7.widget.CardView
+
+            android:id="@+id/cvsoda"
+            android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_weight="1"
-            android:text="Jus Melon @7k"
-            android:textColor="@color/gold4"
-            android:textAlignment="center"
-            />
-        <EditText
-            android:layout_width="0dp"
-            android:layout_height="wrap_content"
-            android:layout_weight="1"
-            android:inputType="number"
-            android:id="@+id/txtjusmelon"
-            android:textAlignment="center"
-            android:text="0"
-            android:textColor="@color/gold4"
+            android:layout_margin="8dp"
+            app:cardBackgroundColor="@color/grey"
+            app:cardElevation="8dp"
 
-            />
-    </LinearLayout>
+            >
 
-        <LinearLayout
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_margin="2dp"
-        android:orientation="horizontal">
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="2dp"
+                android:orientation="horizontal">
 
-        <TextView
-            android:layout_width="0dp"
-            android:layout_height="wrap_content"
-            android:layout_weight="1"
-            android:text="Soda @10k"
-            android:textColor="@color/gold4"
-            android:textAlignment="center"
-            />
-        <EditText
-            android:layout_width="0dp"
-            android:layout_height="wrap_content"
-            android:layout_weight="1"
-            android:inputType="number"
-            android:id="@+id/txtsoda"
-            android:textAlignment="center"
-            android:text="0"
-            android:textColor="@color/gold4"
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="Soda @10k"
+                    android:textColor="@color/gold4"
+                    android:textAlignment="center"
+                    android:textSize="18sp"
+                    />
+                <EditText
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:inputType="number"
+                    android:id="@+id/txtsoda"
+                    android:textAlignment="center"
+                    android:text="0"
+                    android:textColor="@color/gold4"
+                    android:textSize="18sp"
 
-            />
-    </LinearLayout>
+                    />
+            </LinearLayout>
+
+        </android.support.v7.widget.CardView>
+
+
 
         <View
             android:layout_width="match_parent"

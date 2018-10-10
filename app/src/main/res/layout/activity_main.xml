@@ -35,6 +35,7 @@
                 android:background="@color/gold2"
                 android:gravity="center"
                 android:text="LOKASI"
+
                 />
             <Button
                 android:id="@+id/btntelepon"

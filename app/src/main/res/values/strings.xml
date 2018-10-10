@@ -1,4 +1,7 @@
 <resources>
     <string name="app_name">Tugas1-ChickenDinner</string>
     <string name="todo">TODO</string>
+    <string name="dashboard">Dashboard</string>
+    <string name="telpon">Telpon</string>
+    <string name="lokasi">Lokasi</string>
 </resources>
